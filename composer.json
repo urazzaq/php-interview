@@ -1,0 +1,15 @@
+{
+    "name": "imaginelearning/php-interview",
+    "description": "A simple PHP project for developer candidates.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eric Gibby",
+            "email": "eric.gibby@imaginelearning.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
+}
