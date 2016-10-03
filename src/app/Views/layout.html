@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% block head %}
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>{% block title %}PHP Interview{% endblock %}</title>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+			<link rel="stylesheet" href="/main.css" />
+		{% endblock %}
+	</head>
+	<body class="container">
+		{% block nav %}
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="{{ path_for('home') }}">PHP Interview</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li><a href="{{ path_for('students') }}">Students</a></li>
+					</ul>
+				</div>
+			</nav>
+		{% endblock %}
+		{% block content %}
+		{% endblock %}
+		<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>

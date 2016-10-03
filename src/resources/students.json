@@ -1,0 +1,282 @@
+[
+	{
+		"firstName": "Sophia",
+		"lastName": "Hernandez",
+		"favoriteFood": "Chicken nuggets",
+		"favoriteColor": "Green",
+		"favoriteMovie": "Zootopia",
+		"id": 12175
+	},
+	{
+		"firstName": "Sophia",
+		"lastName": "Miller",
+		"favoriteFood": "Apples",
+		"favoriteColor": "Pink",
+		"favoriteMovie": "Big Hero 6",
+		"id": 4329
+	},
+	{
+		"firstName": "Abigail",
+		"lastName": "Garcia",
+		"favoriteFood": "Pizza",
+		"favoriteColor": "Pink",
+		"favoriteMovie": "Big Hero 6",
+		"id": 25172
+	},
+	{
+		"firstName": "Alexander",
+		"lastName": "Thomas",
+		"favoriteFood": "Sandwich",
+		"favoriteColor": "Red",
+		"favoriteMovie": "Zootopia",
+		"id": 39212
+	},
+	{
+		"firstName": "William",
+		"lastName": "Jackson",
+		"favoriteFood": "S'mores",
+		"favoriteColor": "Teal",
+		"favoriteMovie": "The Incredibles",
+		"id": 4143
+	},
+	{
+		"firstName": "Benjamin",
+		"lastName": "Johnson",
+		"favoriteFood": "Apples",
+		"favoriteColor": "Black",
+		"favoriteMovie": "The Incredibles",
+		"id": 3079
+	},
+	{
+		"firstName": "Jacob",
+		"lastName": "Rodriguez",
+		"favoriteFood": "S'mores",
+		"favoriteColor": "Teal",
+		"favoriteMovie": "The Rescuers",
+		"id": 31843
+	},
+	{
+		"firstName": "Olivia",
+		"lastName": "Moore",
+		"favoriteFood": "Apples",
+		"favoriteColor": "Teal",
+		"favoriteMovie": "Big Hero 6",
+		"id": 26604
+	},
+	{
+		"firstName": "Olivia",
+		"lastName": "Jones",
+		"favoriteFood": "Pie",
+		"favoriteColor": "Aquamarine",
+		"favoriteMovie": "Hercules",
+		"id": 31779
+	},
+	{
+		"firstName": "Michael",
+		"lastName": "Martinez",
+		"favoriteFood": "Cake",
+		"favoriteColor": "Aquamarine",
+		"favoriteMovie": "The Incredibles",
+		"id": 4705
+	},
+	{
+		"firstName": "Isabella",
+		"lastName": "Thompson",
+		"favoriteFood": "Sandwich",
+		"favoriteColor": "Red",
+		"favoriteMovie": "Star Wars Episode 1",
+		"id": 27830
+	},
+	{
+		"firstName": "Charlotte",
+		"lastName": "Davis",
+		"favoriteFood": "Pizza",
+		"favoriteColor": "Blue",
+		"favoriteMovie": "Oliver and Company",
+		"id": 13988
+	},
+	{
+		"firstName": "Noah",
+		"lastName": "Thomas",
+		"favoriteFood": "Apples",
+		"favoriteColor": "White",
+		"favoriteMovie": "The Rescuers",
+		"id": 8056
+	},
+	{
+		"firstName": "Emily",
+		"lastName": "Wilson",
+		"favoriteFood": "Spaghetti",
+		"favoriteColor": "Brown",
+		"favoriteMovie": "Star Wars Episode 1",
+		"id": 33766
+	},
+	{
+		"firstName": "Benjamin",
+		"lastName": "Anderson",
+		"favoriteFood": "Avocado",
+		"favoriteColor": "White",
+		"favoriteMovie": "The Incredibles",
+		"id": 20450
+	},
+	{
+		"firstName": "Alexander",
+		"lastName": "Davis",
+		"favoriteFood": "Pizza",
+		"favoriteColor": "Black",
+		"favoriteMovie": "Zootopia",
+		"id": 25083
+	},
+	{
+		"firstName": "Olivia",
+		"lastName": "Martinez",
+		"favoriteFood": "S'mores",
+		"favoriteColor": "White",
+		"favoriteMovie": "Big Hero 6",
+		"id": 19164
+	},
+	{
+		"firstName": "Alexander",
+		"lastName": "Garcia",
+		"favoriteFood": "Cake",
+		"favoriteColor": "Green",
+		"favoriteMovie": "Big Hero 6",
+		"id": 795
+	},
+	{
+		"firstName": "Ava",
+		"lastName": "White",
+		"favoriteFood": "Spaghetti",
+		"favoriteColor": "Black",
+		"favoriteMovie": "Zootopia",
+		"id": 25120
+	},
+	{
+		"firstName": "Liam",
+		"lastName": "Martin",
+		"favoriteFood": "Cake",
+		"favoriteColor": "White",
+		"favoriteMovie": "The Rescuers",
+		"id": 23035
+	},
+	{
+		"firstName": "James",
+		"lastName": "Anderson",
+		"favoriteFood": "Sandwich",
+		"favoriteColor": "Aquamarine",
+		"favoriteMovie": "Big Hero 6",
+		"id": 5797
+	},
+	{
+		"firstName": "Noah",
+		"lastName": "Anderson",
+		"favoriteFood": "Pie",
+		"favoriteColor": "Black",
+		"favoriteMovie": "Big Hero 6",
+		"id": 39637
+	},
+	{
+		"firstName": "Emma",
+		"lastName": "Wilson",
+		"favoriteFood": "Pie",
+		"favoriteColor": "Pink",
+		"favoriteMovie": "The Rescuers",
+		"id": 30038
+	},
+	{
+		"firstName": "Liam",
+		"lastName": "Brown",
+		"favoriteFood": "Pie",
+		"favoriteColor": "White",
+		"favoriteMovie": "Hercules",
+		"id": 4951
+	},
+	{
+		"firstName": "Jacob",
+		"lastName": "Moore",
+		"favoriteFood": "Pizza",
+		"favoriteColor": "Teal",
+		"favoriteMovie": "Oliver and Company",
+		"id": 6210
+	},
+	{
+		"firstName": "Abigail",
+		"lastName": "Brown",
+		"favoriteFood": "Macaroni and cheese",
+		"favoriteColor": "Red",
+		"favoriteMovie": "The Incredibles",
+		"id": 8848
+	},
+	{
+		"firstName": "Ethan",
+		"lastName": "Anderson",
+		"favoriteFood": "Fried chicken",
+		"favoriteColor": "Pink",
+		"favoriteMovie": "Aladdin",
+		"id": 11140
+	},
+	{
+		"firstName": "James",
+		"lastName": "Brown",
+		"favoriteFood": "Apples",
+		"favoriteColor": "Red",
+		"favoriteMovie": "Zootopia",
+		"id": 20635
+	},
+	{
+		"firstName": "Charlotte",
+		"lastName": "Wilson",
+		"favoriteFood": "Sandwich",
+		"favoriteColor": "Red",
+		"favoriteMovie": "Aladdin",
+		"id": 17959
+	},
+	{
+		"firstName": "Abigail",
+		"lastName": "Thompson",
+		"favoriteFood": "Chicken nuggets",
+		"favoriteColor": "Blue",
+		"favoriteMovie": "Aladdin",
+		"id": 2930
+	},
+	{
+		"firstName": "Abigail",
+		"lastName": "Davis",
+		"favoriteFood": "Apples",
+		"favoriteColor": "Black",
+		"favoriteMovie": "Hercules",
+		"id": 26388
+	},
+	{
+		"firstName": "Liam",
+		"lastName": "Martinez",
+		"favoriteFood": "Avocado",
+		"favoriteColor": "Black",
+		"favoriteMovie": "Aladdin",
+		"id": 39476
+	},
+	{
+		"firstName": "William",
+		"lastName": "Wilson",
+		"favoriteFood": "Chicken nuggets",
+		"favoriteColor": "Black",
+		"favoriteMovie": "The Incredibles",
+		"id": 21482
+	},
+	{
+		"firstName": "Noah",
+		"lastName": "Rodriguez",
+		"favoriteFood": "Chicken nuggets",
+		"favoriteColor": "Aquamarine",
+		"favoriteMovie": "Big Hero 6",
+		"id": 37825
+	},
+	{
+		"firstName": "Charlotte",
+		"lastName": "Moore",
+		"favoriteFood": "Chicken nuggets",
+		"favoriteColor": "Black",
+		"favoriteMovie": "Star Wars Episode 1",
+		"id": 7107
+	}
+]

@@ -5,11 +5,21 @@
     "authors": [
         {
             "name": "Eric Gibby",
-            "email": "eric.gibby@imaginelearning.com"
+            "email": "eric.gibby@imaginelearning.com",
+            "homepage": "http://www.imaginelearning.com"
         }
     ],
-    "require": {},
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.1"
+    },
     "require-dev": {
-        "phpunit/phpunit": "5.5.*"
+        "phpunit/phpunit": "^5.5",
+        "phpunit/php-invoker": "^1.1",
+        "phpunit/dbunit": "^2.0"
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8080 -t src/public",
+        "test": "phpunit"
     }
 }
