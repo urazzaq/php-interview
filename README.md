@@ -24,7 +24,7 @@ To get you started you can simply fork the [php-interview][php-interview] reposi
 ### Prerequisites
 
 You need to have Git installed locally so you can clone your fork of the ng-interview repository. You can get Git from
-[http://git-scm.com/][(http://git-scm.com/)].
+[http://git-scm.com/][git].
 
 We use number of PHP tools to initialize and test php-interview. You must have [PHP][php] installed,
 with the PHP executible file available on your PATH. This project was developed using PHP 7.0.x.
