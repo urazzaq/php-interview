@@ -21,11 +21,11 @@ class AppServicesProvider {
 		}
 
 		if (!isset($container['view'])) {
-			$container['view'] = function ($container) {
+			$container['view'] = function($c) {
 				$view = new \Slim\Views\Twig(__DIR__ . '/../Views/');
 				$view->addExtension(new \Slim\Views\TwigExtension(
-					$container['router'],
-					$container['request']->getUri()
+					$c['router'],
+					$c['request']->getUri()
 				));
 
 				return $view;

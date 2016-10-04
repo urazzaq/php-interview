@@ -27,12 +27,12 @@ You need to have Git installed locally so you can clone your fork of the php-int
 [http://git-scm.com/][git].
 
 We use a number of PHP tools to initialize and test php-interview. You must have [PHP][php] installed,
-with the PHP executible file available on your PATH. This project was developed using PHP 7.0.x.
+with the PHP executable file available on your PATH. This project was developed using PHP 7.0.x.
 
 We also use the [Composer][composer] dependency manager for managing dependencies on 3rd-party libraries.
 You can follow the [instructions on the Composer website](https://getcomposer.org/doc/00-intro.md#introduction)
 for installing on either [OSX/Linux](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) or
-[Windows](https://getcomposer.org/doc/00-intro.md#installation-windows). We recommned following the instructions
+[Windows](https://getcomposer.org/doc/00-intro.md#installation-windows). We recommend following the instructions
 to install Composer globally.
 
 ### Fork and Clone php-interview
@@ -79,48 +79,31 @@ You can then browse to [http://localhost:8080](http://localhost:8008) in your we
 
 The application uses the Model-View-Controller, or MVC, pattern.
 The directories are structured to keep the project organized following this pattern.
+The following is a summary of the files you will need to work with in this project:
 
 ```
 src/                         --> all the source files for the application
   app/                         --> all the code behind the application
     Config/                      --> all classes that configure the application
-      AppRoutesProvider.php        --> class for registering routes
       AppServicesProvider.php      --> class for registering dependencies with the DI container
     Controllers/                 --> all controllers for the application
-      API/                         --> controllers for API endpoints
-        StudentsController.php       --> controller for students API endpoint
       Web/                         --> all controllers for web views
-        HomeController.php           --> controller for home page view
         StudentsController.php       --> controller for students view
-        WebController.php            --> abstract controller class for web views
-      BaseController.php           --> abstract controller class
     Models/                      --> all models for the application
       Student.php                  --> student model
     Services/                    --> all app-specific services
       NameResolver/                --> services for resolving names
         NameResolverInterface.php    --> interface defining a name resolver service
         StudentNameResolver.php      --> name resolver service for students (not implemented yet)
-      Repository/                  --> services for interacting with data repositories
-        JsonRepository.php           --> basic service for using JSON as a data repository
-        RepositoryInterface.php      --> interface defining a repository service
-      Serialization/               --> services for serialization
-        JsonSerializer.php           --> service for serializing/deserializing JSON
-        SerializerInterface.php      --> interface defining a serializer service
     Views/                       --> all web views for the application
-      home.html                    --> basic template for home view
-      layout.html                  --> base layout for app
       students.html                --> basic template for students view
   public/                      --> root directory for the web server
-    index.php                    --> entry point for the application
     main.css                     --> main stylesheet for application
-  resources/                   --> resources used by the application
-    students.json                --> JSON doc with sample student data
-  autoload.php                 --> script for autoloading dependencies
 tests/                       --> unit tests for the application and services
-  bootstrap.php                --> script for bootstrapping PHPUnit
   StudentNameResolverTest.php  --> unit tests for StudentNameResolver class
-vendor/                      --> all 3rd-party dependencies (not included in source control)
 ```
+
+For a more comprehensive explanation of the project files, view the [explanation of files](FILES.md) document.
 
 ### Models
 
