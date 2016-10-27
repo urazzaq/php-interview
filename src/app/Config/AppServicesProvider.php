@@ -20,6 +20,12 @@ class AppServicesProvider {
 			};
 		}
 
+		if (!isset($container['student_name_resolver'])) {
+			$container['student_name_resolver'] = function($c) {
+				return new \Services\NameResolver\StudentNameResolver();
+			};
+		}
+
 		if (!isset($container['view'])) {
 			$container['view'] = function($c) {
 				$view = new \Slim\Views\Twig(__DIR__ . '/../Views/');
